@@ -15,9 +15,9 @@ To view detection alerts created by a specific rule, you can:
 * View detection alerts in the *Rule details* page (click
 *Manage detection rules* -> rule name in the *All rules* table).
 
-NOTE: KQL autocomplete for `.siem-signals-*` indices is available on the 
+NOTE: KQL autocomplete for `.siem-signals-*` indices is available on the
 *Detections* and *Rule details* pages, and in Timeline when either `All` or
-`Detection alerts` is selected. 
+`Detection alerts` is selected.
 
 To view alerts from external data shippers, click *External alerts*.
 
@@ -81,8 +81,8 @@ Alerts table. Exceptions prevent a rule from generating alerts even when its
 criteria are met.
 
 To add an exception, click the actions icon (three dots) and then select
-_Add exception_. 
- 
+_Add exception_.
+
 For information about exceptions and how to use them, see
 <<detections-ui-exceptions>>.
 
@@ -93,5 +93,5 @@ For information about exceptions and how to use them, see
 For process events received from the Elastic Endpoint agent, you can open a
 visual mapping of the relationships and hierarchy connecting related processes.
 
-To visulize process relationships, click the *Analyze event* icon. For more
+To visualize process relationships, click the *Analyze event* icon. For more
 information, see Ben xref.
