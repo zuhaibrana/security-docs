@@ -46,11 +46,12 @@ these privileges must visit (click on) the *Detections* page:
 * {kib} space `All` privileges for the `Security` feature (see
 {kibana-ref}/xpack-spaces.html#spaces-control-user-access[Feature access based on user privileges]).
 * The `manage`, `write`,`read`, and `view_index_metadata` index privileges for all of these system indices:
-** `.siem-signals-<kib-space>`
 ** `.lists-<kib-space>`
 ** `.items-<kib-space>`
 +
 Where `<kib-space>` is the {kib} space name.
++
+* The `maintenance` permission for the `.siem-signals-<kib-space>` index.
 * If you want to allow the user to create rules as well as enable the
 Detections feature, {kib} space `All` privileges for the `Saved Objects
 Management`.
@@ -80,9 +81,10 @@ After enabling Detections, only users with these permission can view and use the
 * {kib} space `All` privileges for the `Security`  and `Saved Objects
 Management` features
 * The `read`, `write`, and `view_index_metadata` index privileges for all of these system indices:
-** `.siem-signals-<kib-space>`
 ** `.lists-<kib-space>`
 ** `.items-<kib-space>`
++
+* The `maintenance` permission for the `.siem-signals-<kib-space>` index.
 +
 Where `<kib-space>` is the {kib} space name.
 
