@@ -179,7 +179,7 @@ to open the *Detections* page.
 
 If you see this message, a user with specific privileges must visit the
 *Detections* page before you can view detection rules and alerts.
-See <<enable-detections-ui>> for a list of all the requirements..
+See <<enable-detections-ui>> for a list of all the requirements.
 
 NOTE: For *self-managed* {stack} deployments only, this message may be displayed
 when the
