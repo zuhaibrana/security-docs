@@ -22,7 +22,7 @@ suspicious activity. For detailed information on all the prebuilt rules, see the
 running, <<tuning-detection-signals>> and <<detections-ui-exceptions>> explain
 how to modify the rules to reduce false positives and get a better set of
 actionable alerts. You can also use exceptions and value lists when creating or
-modifying your own rules..
+modifying your own rules.
 
 There are two special prebuilt rules you need to know about:
 
