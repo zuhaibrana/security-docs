@@ -1,6 +1,6 @@
 [[machine-learning]]
 [role="xpack"]
-= Anomaly Detection with Machine Learning
+= Anomaly Detection with Machine Learnj
 
 {kibana-ref}/xpack-ml.html[{ml-cap}] functionality is available when
 you have the *https://www.elastic.co/subscriptions[appropriate license]*, are
